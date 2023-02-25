@@ -1,0 +1,33 @@
+@media screen and (max-width:634px)
+{
+    /* body{
+        /* background-color: blue;
+        width:auto
+    } */
+    nav{
+        flex-direction: column;
+    }
+    .logo {
+        
+        flex-direction: column;
+        justify-content: center;
+        margin: 12px 0;
+    } 
+   nav ul{
+    height: 34px;
+    justify-content: center;
+   }
+   .search{
+    display: contents;
+    justify-content: center;
+
+
+    }
+    .search input{
+        margin: 12px 16px;
+    }
+
+
+   
+
+}
