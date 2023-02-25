@@ -1,0 +1,31 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.btn{
+    background-color: #f6f6f6;
+    border: 2px solid red;
+    padding: 0px 5px 0 5px;
+    border-radius: 4px;
+    cursor: pointer
+}
+.btn:hover{
+    text-shadow: 4px;
+    font-size: larger;
+    color:rgb(32, 8, 212)
+}
+
+.m1{
+    margin: 5px 0;
+}
+.m2{
+margin: 26px 0 ;
+}
+
+.text-center{
+    text-align: center;
+}
