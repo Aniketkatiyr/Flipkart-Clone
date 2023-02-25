@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 15vh;
+    border: 2px solid rgb(74, 245, 6);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+}
+
+.logo img{
+width:88px;  
+padding: 0 08px;
+}
+
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: start;
+    align-items: center ;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+   color: aqua;
+    text-shadow: 4px;
+    font-style: italic;
+
+}
+.search
+{
+   display: flex;
+   align-items: center;
+   width: 900px;
+
+}
+.search input{
+    width: 40vw;
+    border-radius: 6px;
+    border-color: deepskyblue;
+    margin: 0 08px 0 8px;
+    padding: 2px;
+}
+
+.container{
+    min-height: 87vh;
+}
+.slider{
+     /* display:flex;
+     align-items: center; */
+     margin: auto;
+     width: 60vw;
+     display: flex;
+     justify-content: center;
+     overflow: hidden;
+}
+@keyframes slide {
+    0%{
+        transform: translate(0vw);
+    }
+    100%{
+        transform: translate(81vw);
+    }
+}
+.slider img{
+        margin: 7px;
+        /* justify-content: center;
+        display: inline-flex;
+        width: 63vw; */
+    }
+.img1{
+       transform: translate(0vw);
+       animation: slide 2s forwards infinite;
+}
+
+
+/* @keyframes slide1 {
+    0% {
+        transform: translate(-8vw);
+    }
+
+    100% {
+        transform: translate(85vw);
+}
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translate(0vw);
+    }
+
+    100% {
+        transform: translate(92vw);
+}
+}
+
+
+
+.img1{
+    transform: translate(-8vw);  
+    animation: slide1 1s 2s forwards;
+
+}
+.img2{
+    transform: translate(0vw);   
+    animation: slide2 1s 2s forwards;
+}
+.img3{
+    transform: translate(8vw);
+}  */
+
+
+
+
+
+.card{
+    max-width: 95vw;
+    /* margin: 0px 42px;  */
+    margin: auto auto auto auto;
+
+}
+.card h1{
+    margin: 0 2px 5px 28px; 
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 123px;
+    margin: 0 21px;
+    overflow: hidden;
+
+}
+footer{
+    height:20hv;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Gloock', serif;
+}
